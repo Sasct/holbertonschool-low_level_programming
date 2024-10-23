@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	int n=980;
+	int n = 980;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
