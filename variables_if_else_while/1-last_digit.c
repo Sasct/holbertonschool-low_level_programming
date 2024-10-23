@@ -2,7 +2,6 @@
 #include <time.h>
 #include <stdio.h>
 
-
 /**
  * main - prints a text according number
  *
@@ -21,5 +20,6 @@ int main(void)
 		printf("last digit of %d is %d and is 0\n", n, n % 10);
 	else
 		printf("last digit of %d is %d and is less than 6 and not 0\n", n, n % 10);
+
 	return (0);
 }
